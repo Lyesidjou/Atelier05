@@ -6,4 +6,7 @@ void main() {
     int age = int.parse(texte);
     print("Votre âge est de : $age ans");
     } on FormatException catch (e) {
-    print("Erreur de format : ${e.message}"); }}
+    print("Erreur de format : ${e.message}"); }
+
+    finally {
+    print("Fin d'opération");}}
