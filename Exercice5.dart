@@ -10,4 +10,5 @@ print("Veuillez entre un nombre :");
 String texte = stdin.readLineSync() ?? "";                           
 int nombre = int.parse(texte);                                       
 if (nombre < 0) {                                                    
-throw NombreNegatifException(nombre);}  
+throw NombreNegatifException(nombre);} 
+print("carré de $nombre et : ${nombre * nombre}");}  
